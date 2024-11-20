@@ -85,3 +85,4 @@ class PredicitionPipeline:
             return self.prediction_pipeline_config
         except Exception as e:
             raise CustomExceptions(e,sys)
+        
